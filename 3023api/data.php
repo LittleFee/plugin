@@ -47,7 +47,7 @@
             <li>翻新机概率： <span><?php echo $json['renovate']['probability']?></span></li>
             <li>鉴定结果：<span><?php echo $json['renovate']['result']?></span></li>
             <br>
-            <li><p style="font-size: 0.8rem;text-align: center;color: #ffffff">本次查询数据由 <a href="http://www.umcx.com" style="color: #f2c919;text-decoration:none">企帮科技</a> 提供<br>结果仅供参考，以 <a href="https://checkcoverage.apple.com/?sn=<?php  echo $json['sn']?>" style="color: #f2c919;text-decoration:none">苹果官网查询</a> 为准</p></li>
+            <li><p style="font-size: 0.8rem;text-align: center;color: #ffffff">本次查询数据由 <a href="https://github.com/LittleFee/plugin/tree/master/3023api" style="color: #f2c919;text-decoration:none">LittleFee</a> 提供<br>结果仅供参考，以 <a href="https://checkcoverage.apple.com/?sn=<?php  echo $json['sn']?>" style="color: #f2c919;text-decoration:none">苹果官网查询</a> 为准</p></li>
         </ul>
 
 
