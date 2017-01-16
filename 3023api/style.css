@@ -1,0 +1,75 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+body{
+    margin:0 auto;
+    background:#0F152B;
+    color:#fff;
+    font-family:"helvetica";
+
+}
+div.main{
+    max-width: 640px;
+    text-align: center;
+    padding:5rem 0;
+    position:fixed;
+    top:50%;
+    transform: translate(0,-50%);
+
+}
+div.main h1,.data h1{
+    font-size: 2.2rem;
+    color:#F2C919;
+    text-align: center;
+
+}
+div.main p{
+    font-size: 1rem;
+    margin: 1.2rem 0;
+    padding:0 1.2rem;
+    text-align: left;
+
+}
+.formDate input{
+    width:50%;
+    height:3.2rem;
+    border:1px solid #ddd;
+    font-size: 1.2rem;
+}
+.formDate button{
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-left:1rem;
+    height:3rem;
+    width:5.2rem;
+    padding:1px 0;
+    border: 0;
+    color:#fff;
+    background-image: linear-gradient(to top, #007AFF 0%, #00B9FF 100%);
+
+}
+/*数据呈现*/
+div.data{
+    max-width: 640px;
+    padding:5rem 0;
+}
+.data ul{
+    margin-top:1.5rem;
+}
+.data ul li{
+    padding-left:1.2rem;
+   color:#F2C919;
+    line-height: 1.8rem;
+}
+.data ul li span{
+    color:#fff;
+}
+.li_title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
