@@ -33,3 +33,9 @@
         echo "<script>alert('{$wrongCode [$json['code']]}');history.go(-1);</script>";
         exit;
     }
+/**
+ * Created by PhpStorm.
+ * User: qingxiaofee
+ * Date: 2017/1/13
+ * Time: 15:23
+ */
