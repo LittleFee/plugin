@@ -37,3 +37,15 @@ function getIp($ip = ''){
         
 }
 print_r(getIp('125.70.79.170'));
+
+//taobaoIp.php
+/*@查询ip的归属地（使用淘宝api）
+ *$ip:一个ip地址
+ *$ipInfo:返回的数组
+ */
+function taobaoIp($ip){
+    $taobaoIp = 'http://ip.taobao.com/service/getIpInfo.php?ip='.$ip;
+    $ipInfo = json_decode(file_get_contents($taobaoIp),true);
+    return $ipInfo;
+}
+print_r(taobaoIp('125.70.79.170'));
